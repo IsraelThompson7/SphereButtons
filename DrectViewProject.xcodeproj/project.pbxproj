@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		933814BF177849B5009A954E /* ReadToYou.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 933814BE177849B5009A954E /* ReadToYou.rtf */; };
+		935565CC178A5435000B121C /* CircularLayOutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 935565C9178A5435000B121C /* CircularLayOutView.m */; };
+		935565CD178A5435000B121C /* XYPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 935565CB178A5435000B121C /* XYPoint.m */; };
 		936F04571771951800385EC0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 936F04561771951800385EC0 /* UIKit.framework */; };
 		936F04591771951800385EC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 936F04581771951800385EC0 /* Foundation.framework */; };
 		936F045B1771951800385EC0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 936F045A1771951800385EC0 /* CoreGraphics.framework */; };
@@ -18,9 +21,15 @@
 		936F046D1771951800385EC0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 936F046C1771951800385EC0 /* Default-568h@2x.png */; };
 		936F04701771951800385EC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 936F046F1771951800385EC0 /* ViewController.m */; };
 		936F04731771951800385EC0 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 936F04711771951800385EC0 /* ViewController.xib */; };
+		938A3D3E177994FD00DE78DF /* RectButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 938A3D3D177994FD00DE78DF /* RectButtonView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		933814BE177849B5009A954E /* ReadToYou.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = ReadToYou.rtf; sourceTree = "<group>"; };
+		935565C8178A5435000B121C /* CircularLayOutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CircularLayOutView.h; path = CircularLayoutView/CircularLayOutView.h; sourceTree = "<group>"; };
+		935565C9178A5435000B121C /* CircularLayOutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CircularLayOutView.m; path = CircularLayoutView/CircularLayOutView.m; sourceTree = "<group>"; };
+		935565CA178A5435000B121C /* XYPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYPoint.h; path = CircularLayoutView/XYPoint.h; sourceTree = "<group>"; };
+		935565CB178A5435000B121C /* XYPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XYPoint.m; path = CircularLayoutView/XYPoint.m; sourceTree = "<group>"; };
 		936F04531771951800385EC0 /* DrectViewProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrectViewProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		936F04561771951800385EC0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		936F04581771951800385EC0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +46,8 @@
 		936F046E1771951800385EC0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		936F046F1771951800385EC0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		936F04721771951800385EC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		938A3D3C177994FD00DE78DF /* RectButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectButtonView.h; sourceTree = "<group>"; };
+		938A3D3D177994FD00DE78DF /* RectButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectButtonView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +99,13 @@
 				936F046E1771951800385EC0 /* ViewController.h */,
 				936F046F1771951800385EC0 /* ViewController.m */,
 				936F04711771951800385EC0 /* ViewController.xib */,
+				935565C8178A5435000B121C /* CircularLayOutView.h */,
+				935565C9178A5435000B121C /* CircularLayOutView.m */,
+				935565CA178A5435000B121C /* XYPoint.h */,
+				935565CB178A5435000B121C /* XYPoint.m */,
+				938A3D3C177994FD00DE78DF /* RectButtonView.h */,
+				938A3D3D177994FD00DE78DF /* RectButtonView.m */,
+				933814BE177849B5009A954E /* ReadToYou.rtf */,
 				936F045D1771951800385EC0 /* Supporting Files */,
 			);
 			path = DrectViewProject;
@@ -163,6 +181,7 @@
 				936F046B1771951800385EC0 /* Default@2x.png in Resources */,
 				936F046D1771951800385EC0 /* Default-568h@2x.png in Resources */,
 				936F04731771951800385EC0 /* ViewController.xib in Resources */,
+				933814BF177849B5009A954E /* ReadToYou.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +195,9 @@
 				936F04631771951800385EC0 /* main.m in Sources */,
 				936F04671771951800385EC0 /* AppDelegate.m in Sources */,
 				936F04701771951800385EC0 /* ViewController.m in Sources */,
+				938A3D3E177994FD00DE78DF /* RectButtonView.m in Sources */,
+				935565CC178A5435000B121C /* CircularLayOutView.m in Sources */,
+				935565CD178A5435000B121C /* XYPoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +285,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DrectViewProject/DrectViewProject-Prefix.pch";
 				INFOPLIST_FILE = "DrectViewProject/DrectViewProject-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -274,7 +298,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DrectViewProject/DrectViewProject-Prefix.pch";
 				INFOPLIST_FILE = "DrectViewProject/DrectViewProject-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -298,6 +324,7 @@
 				936F04781771951800385EC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
